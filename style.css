@@ -1,0 +1,22 @@
+:root { color-scheme: light; font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #172033; background: #f6f8fc; }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 32px 18px; }
+.shell { width: min(820px, 100%); background: white; border: 1px solid #e2e8f0; border-radius: 24px; padding: clamp(28px, 6vw, 64px); box-shadow: 0 16px 44px rgba(20, 32, 60, .08); }
+.brand { display: flex; align-items: center; gap: 12px; font-size: 18px; font-weight: 800; }
+.mark { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 14px; color: white; background: linear-gradient(135deg, #5548f5, #9b45df); }
+.hero { padding: 64px 0 48px; }
+.eyebrow { color: #5548f5; text-transform: uppercase; letter-spacing: .12em; font-size: 12px; font-weight: 800; }
+h1 { max-width: 680px; margin: 14px 0 22px; font-size: clamp(34px, 6vw, 56px); line-height: 1.08; letter-spacing: -.04em; }
+.intro, .note { max-width: 650px; color: #526078; font-size: 17px; line-height: 1.7; }
+.note { padding: 16px 18px; border-radius: 14px; background: #f1f3ff; color: #42409b; font-size: 14px; }
+.links { display: flex; flex-wrap: wrap; gap: 12px; border-top: 1px solid #e8edf5; padding-top: 24px; }
+a { color: #5145e8; font-weight: 700; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.links a { padding: 12px 16px; border: 1px solid #dfe4f0; border-radius: 12px; }
+footer { margin-top: 38px; color: #8692a8; font-size: 13px; }
+.document { width: min(900px, 100%); }
+.document h1 { font-size: clamp(34px, 5vw, 48px); }
+.document h2 { margin: 32px 0 10px; font-size: 20px; }
+.document p, .document li { color: #526078; font-size: 16px; line-height: 1.75; }
+.document ul { padding-left: 24px; }
+.back { display: inline-block; margin-top: 28px; }
